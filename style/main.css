@@ -10,9 +10,11 @@
     box-sizing: border-box;
 }
 
+/*Elementos Base*/
 body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 /* Alinhar itens*/
@@ -40,4 +42,24 @@ header nav a{
 /*mudar cor ao passar mouse em cima*/
 header nav a:hover{
     color:#fff;
+}
+
+/*Filme Principal*/
+.filme-principal{
+    font-size:16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/zonaCombate.jpg');
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+.titulo{
+    font-size:40px ;
 }
